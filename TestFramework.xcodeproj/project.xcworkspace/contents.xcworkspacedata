@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ISS-HW-Framework.xcodeproj">
+      location = "self:TestFramework.xcodeproj">
    </FileRef>
 </Workspace>

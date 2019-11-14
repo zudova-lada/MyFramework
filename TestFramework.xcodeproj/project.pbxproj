@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		073468142379CDA800A4265C /* ISS_HW_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 073468122379CDA800A4265C /* ISS_HW_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0734681B2379CDBA00A4265C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0734681A2379CDBA00A4265C /* Utils.swift */; };
+		07528E49237DF826008CCFB8 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 07528E47237DF826008CCFB8 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07528E50237DF848008CCFB8 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07528E4F237DF848008CCFB8 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0734680F2379CDA800A4265C /* ISS_HW_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISS_HW_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		073468122379CDA800A4265C /* ISS_HW_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISS_HW_Framework.h; sourceTree = "<group>"; };
-		073468132379CDA800A4265C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0734681A2379CDBA00A4265C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		07528E44237DF826008CCFB8 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07528E47237DF826008CCFB8 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
+		07528E48237DF826008CCFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07528E4F237DF848008CCFB8 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0734680C2379CDA800A4265C /* Frameworks */ = {
+		07528E41237DF826008CCFB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,98 +29,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		073468052379CDA800A4265C = {
+		07528E3A237DF826008CCFB8 = {
 			isa = PBXGroup;
 			children = (
-				073468112379CDA800A4265C /* ISS-HW-Framework */,
-				073468102379CDA800A4265C /* Products */,
+				07528E46237DF826008CCFB8 /* TestFramework */,
+				07528E45237DF826008CCFB8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		073468102379CDA800A4265C /* Products */ = {
+		07528E45237DF826008CCFB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0734680F2379CDA800A4265C /* ISS_HW_Framework.framework */,
+				07528E44237DF826008CCFB8 /* TestFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		073468112379CDA800A4265C /* ISS-HW-Framework */ = {
+		07528E46237DF826008CCFB8 /* TestFramework */ = {
 			isa = PBXGroup;
 			children = (
-				0734681A2379CDBA00A4265C /* Utils.swift */,
-				073468122379CDA800A4265C /* ISS_HW_Framework.h */,
-				073468132379CDA800A4265C /* Info.plist */,
+				07528E47237DF826008CCFB8 /* TestFramework.h */,
+				07528E4F237DF848008CCFB8 /* Test.swift */,
+				07528E48237DF826008CCFB8 /* Info.plist */,
 			);
-			path = "ISS-HW-Framework";
+			path = TestFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0734680A2379CDA800A4265C /* Headers */ = {
+		07528E3F237DF826008CCFB8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073468142379CDA800A4265C /* ISS_HW_Framework.h in Headers */,
+				07528E49237DF826008CCFB8 /* TestFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0734680E2379CDA800A4265C /* ISS-HW-Framework */ = {
+		07528E43237DF826008CCFB8 /* TestFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 073468172379CDA800A4265C /* Build configuration list for PBXNativeTarget "ISS-HW-Framework" */;
+			buildConfigurationList = 07528E4C237DF826008CCFB8 /* Build configuration list for PBXNativeTarget "TestFramework" */;
 			buildPhases = (
-				0734680A2379CDA800A4265C /* Headers */,
-				0734680B2379CDA800A4265C /* Sources */,
-				0734680C2379CDA800A4265C /* Frameworks */,
-				0734680D2379CDA800A4265C /* Resources */,
+				07528E3F237DF826008CCFB8 /* Headers */,
+				07528E40237DF826008CCFB8 /* Sources */,
+				07528E41237DF826008CCFB8 /* Frameworks */,
+				07528E42237DF826008CCFB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ISS-HW-Framework";
-			productName = "ISS-HW-Framework";
-			productReference = 0734680F2379CDA800A4265C /* ISS_HW_Framework.framework */;
+			name = TestFramework;
+			productName = TestFramework;
+			productReference = 07528E44237DF826008CCFB8 /* TestFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		073468062379CDA800A4265C /* Project object */ = {
+		07528E3B237DF826008CCFB8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Лада";
 				TargetAttributes = {
-					0734680E2379CDA800A4265C = {
+					07528E43237DF826008CCFB8 = {
 						CreatedOnToolsVersion = 10.3;
 						LastSwiftMigration = 1030;
 					};
 				};
 			};
-			buildConfigurationList = 073468092379CDA800A4265C /* Build configuration list for PBXProject "ISS-HW-Framework" */;
+			buildConfigurationList = 07528E3E237DF826008CCFB8 /* Build configuration list for PBXProject "TestFramework" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 073468052379CDA800A4265C;
-			productRefGroup = 073468102379CDA800A4265C /* Products */;
+			mainGroup = 07528E3A237DF826008CCFB8;
+			productRefGroup = 07528E45237DF826008CCFB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0734680E2379CDA800A4265C /* ISS-HW-Framework */,
+				07528E43237DF826008CCFB8 /* TestFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0734680D2379CDA800A4265C /* Resources */ = {
+		07528E42237DF826008CCFB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,18 +130,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0734680B2379CDA800A4265C /* Sources */ = {
+		07528E40237DF826008CCFB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0734681B2379CDBA00A4265C /* Utils.swift in Sources */,
+				07528E50237DF848008CCFB8 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		073468152379CDA800A4265C /* Debug */ = {
+		07528E4A237DF826008CCFB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		073468162379CDA800A4265C /* Release */ = {
+		07528E4B237DF826008CCFB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +263,7 @@
 			};
 			name = Release;
 		};
-		073468182379CDA800A4265C /* Debug */ = {
+		07528E4D237DF826008CCFB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -274,14 +274,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "ISS-HW-Framework/Info.plist";
+				INFOPLIST_FILE = TestFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "School.ISS-HW-Framework";
+				PRODUCT_BUNDLE_IDENTIFIER = School.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -290,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		073468192379CDA800A4265C /* Release */ = {
+		07528E4E237DF826008CCFB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -301,14 +301,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "ISS-HW-Framework/Info.plist";
+				INFOPLIST_FILE = TestFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "School.ISS-HW-Framework";
+				PRODUCT_BUNDLE_IDENTIFIER = School.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		073468092379CDA800A4265C /* Build configuration list for PBXProject "ISS-HW-Framework" */ = {
+		07528E3E237DF826008CCFB8 /* Build configuration list for PBXProject "TestFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				073468152379CDA800A4265C /* Debug */,
-				073468162379CDA800A4265C /* Release */,
+				07528E4A237DF826008CCFB8 /* Debug */,
+				07528E4B237DF826008CCFB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		073468172379CDA800A4265C /* Build configuration list for PBXNativeTarget "ISS-HW-Framework" */ = {
+		07528E4C237DF826008CCFB8 /* Build configuration list for PBXNativeTarget "TestFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				073468182379CDA800A4265C /* Debug */,
-				073468192379CDA800A4265C /* Release */,
+				07528E4D237DF826008CCFB8 /* Debug */,
+				07528E4E237DF826008CCFB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 073468062379CDA800A4265C /* Project object */;
+	rootObject = 07528E3B237DF826008CCFB8 /* Project object */;
 }
