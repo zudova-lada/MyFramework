@@ -8,7 +8,7 @@
 
 import Foundation
 
-private class Utils {
+open class Utils {
     
     public init() {}
     
